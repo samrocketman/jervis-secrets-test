@@ -1,6 +1,6 @@
 language: java
 install: true
-script: echo "Secret hidden on console: ${JERVIS_SECRETS_TEST}"
+script: 'echo "Secret hidden on console: ${JERVIS_SECRETS_TEST}"'
 jenkins:
   secrets_id: "jervis-secrets-test"
   secrets:
