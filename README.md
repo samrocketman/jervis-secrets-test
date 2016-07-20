@@ -13,7 +13,7 @@ Create credentials in a Jenkins folder and give it the credentials ID
 
 Secret generated with:
 
-    echo -n 'plaintext' | openssl rsautl -encrypt -inkey ./id_rsa.pub -pubin | base64 -w0
+    echo -n 'plaintext' | openssl rsautl -encrypt -inkey ./id_rsa.pub -pubin | openssl enc -base64 -A
 
 Support added in [jervis#64][jervis#64].
 
