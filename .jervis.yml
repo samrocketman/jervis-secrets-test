@@ -1,4 +1,4 @@
-language: java
+language: shell
 install: true
 script:
   - 'JERVIS_SECRETS_TEST="${JERVIS_SECRETS_TEST:-if you see this then the test failed}"'
