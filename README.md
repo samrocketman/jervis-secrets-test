@@ -5,7 +5,7 @@ Automatically loading secrets from a repository into Jenkins.  Based on
 
 Keys were generated with:
 
-    openssl genrsa -out ./id_rsa 1024
+    openssl genrsa -out ./id_rsa 2048
     openssl rsa -in ./id_rsa -pubout -outform pem -out ./id_rsa.pub
 
 Create credentials in a Jenkins folder and give it the credentials ID
