@@ -18,4 +18,4 @@ Secret generated with:
 Support added in [jervis#64][jervis#64].
 
 [jervis#64]: https://github.com/samrocketman/jervis/issues/64
-[rs]: https://github.com/samrocketman/repository-secrets/blob/master/docs/proof_of_concept.md
+[rs]: https://github.com/samrocketman/repository-secrets/blob/main/docs/proof_of_concept.md
